@@ -15,18 +15,21 @@ def get_page(group, week=''):
     return web_page
 
 
-weekdays_dict = {'monday':1,
-                 'tuesday':2,
-                 'wednesday':3,
-                 'thursday':4,
-                 'friday':5
-                }
+weekdays_dict = {'Понедельник':1,
+                 'Вторник':2,
+                 'Среда':3,
+                 'Четверг':4,
+                 'Пятница':5
+                  6: 'Текущая неделя',
+                 7: 'Следущая неделя'}
 
-weekdays_dict2 = {1: 'Monday',
-                  2: 'Tuesday',
-                  3: 'Wednesday',
-                  4: 'Thursday',
-                  5: 'Friday'}
+weekdays_dict2 = {1: 'Понедельник',
+                  2: 'Вторник',
+                  3: 'Среда',
+                  4: 'Четверг',
+                  5: 'Пятница',
+                 6: 'Текущая неделя',
+                 7: 'Следущая неделя'}
 
 
 
